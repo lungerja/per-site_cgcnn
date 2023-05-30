@@ -1,13 +1,13 @@
-# Crystal Graph Convolutional Neural Networks
+# Per-Site Crystal Graph Convolutional Neural Networks
 
-This software package implements the Crystal Graph Convolutional Neural Networks (CGCNN) that takes an arbitary crystal structure to predict material properties. 
+This software package is a fork of Crystal Graph Convolutional Neural Networks (CGCNN), which takes an arbitary crystal structure to predict material properties. Unlike the original repo, predictions for this fork are atomic properties rather than material properties.
 
 The package provides two major functions:
 
 - Train a CGCNN model with a customized dataset.
 - Predict material properties of new crystals with a pre-trained CGCNN model.
 
-The following paper describes the details of the CGCNN framework:
+The following paper describes the details of the original CGCNN framework:
 
 [Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties](https://link.aps.org/doi/10.1103/PhysRevLett.120.145301)
 
